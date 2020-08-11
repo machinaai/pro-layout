@@ -2,6 +2,7 @@ export default {
   'app.setting.pagestyle': 'Configuración de estilo general',
   'app.setting.pagestyle.dark': 'Estilo Obscuro',
   'app.setting.pagestyle.light': 'Estilo Claro',
+  'app.setting.pagestyle.darkTheme': 'Tema Dark',
   'app.setting.content-width': 'Ancho del contenido',
   'app.setting.content-width.fixed': 'Fijo',
   'app.setting.content-width.fluid': 'Fluido',
@@ -28,7 +29,8 @@ export default {
   'app.setting.fixedsidebar': 'Menú Lateral Fijo',
   'app.setting.fixedsidebar.hint': 'Funciona en el diseño del Menú lateral',
   'app.setting.hideheader': 'Esconder Cabecera al desplazarse',
-  'app.setting.hideheader.hint': 'Funciona cuando Ocultar Cabecera está habilitado',
+  'app.setting.hideheader.hint':
+    'Funciona cuando Ocultar Cabecera está habilitado',
   'app.setting.othersettings': 'Otros Ajustes',
   'app.setting.weakmode': 'Modo de debilidad de color',
   'app.setting.copy': 'Copiar Configuración',

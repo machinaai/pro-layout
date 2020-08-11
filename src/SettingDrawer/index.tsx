@@ -195,7 +195,7 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     {
       key: 'light',
       url:
-        'https://gw.alipayobjects.com/zos/antfincdn/NQ%24zoisaD2/jpRkZQMyYRryryPNtyIC.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/jpRkZQMyYRryryPNtyIC.svg',
       title: formatMessage({ id: 'app.setting.pagestyle.light' }),
     },
   ];
@@ -227,7 +227,7 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     themeList.push({
       key: 'dark',
       url:
-        'https://gw.alipayobjects.com/zos/antfincdn/XwFOFbLkSM/LCkqqYNmvBEbokSDscrm.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/LCkqqYNmvBEbokSDscrm.svg',
       title: formatMessage({
         id: 'app.setting.pagestyle.dark',
         defaultMessage: '',
@@ -239,9 +239,9 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     themeList.push({
       key: 'realDark',
       url:
-        'https://gw.alipayobjects.com/zos/antfincdn/hmKaLQvmY2/LCkqqYNmvBEbokSDscrm.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/LCkqqYNmvBEbokSDscrm1.svg',
       title: formatMessage({
-        id: 'app.setting.pagestyle.dark',
+        id: 'app.setting.pagestyle.darkTheme',
         defaultMessage: '',
       }),
     });
@@ -587,7 +587,9 @@ const SettingDrawer: React.FC<SettingDrawerProps> = (props) => {
             colors={
               hideColors
                 ? []
-                : themeList.colorList[navTheme === 'realDark' ? 'dark' : 'light']
+                : themeList.colorList[
+                    navTheme === 'realDark' ? 'dark' : 'light'
+                  ]
             }
             formatMessage={formatMessage}
             onChange={(color) =>
