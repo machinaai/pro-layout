@@ -74,7 +74,7 @@ exports[`PageContainer 🐲 FooterToolbar should know width 1`] = `
     >
       <header
         class="ant-layout-header ant-pro-top-menu"
-        style="padding: 0px; height: 48px; line-height: 48px; width: 100%; z-index: 9;"
+        style="padding: 0px; height: 64px; line-height: 64px; width: 100%; z-index: 9;"
       >
         <div
           class="ant-pro-top-nav-header"
@@ -92,7 +92,7 @@ exports[`PageContainer 🐲 FooterToolbar should know width 1`] = `
                 <a>
                   <img
                     alt="logo"
-                    src="https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg"
+                    src="https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg"
                   />
                   <h1>
                     React Designer
@@ -269,7 +269,7 @@ exports[`PageContainer 🐲 footer should know width 1`] = `
     >
       <header
         class="ant-layout-header ant-pro-top-menu"
-        style="padding: 0px; height: 48px; line-height: 48px; width: 100%; z-index: 9;"
+        style="padding: 0px; height: 64px; line-height: 64px; width: 100%; z-index: 9;"
       >
         <div
           class="ant-pro-top-nav-header"
@@ -287,7 +287,7 @@ exports[`PageContainer 🐲 footer should know width 1`] = `
                 <a>
                   <img
                     alt="logo"
-                    src="https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg"
+                    src="https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg"
                   />
                   <h1>
                     React Designer
