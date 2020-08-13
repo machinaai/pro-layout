@@ -1,7 +1,7 @@
 {
-  "name": "@machinaai/pro-layout",
+  "name": "@machinaai/nbe-layout",
   "version": "6.3.0-0",
-  "description": "Pro-Layout, easy to use pro scaffolding.",
+  "description": "Nbe-Layout, easy to use pro scaffolding.",
   "keywords": [
     "admin",
     "design",
@@ -9,13 +9,13 @@
     "menu",
     "pro"
   ],
-  "homepage": "https://github.com/machinaai/pro-layout#readme",
+  "homepage": "https://github.com/machinaai/pro-layout/nbe-layout#readme",
   "bugs": {
-    "url": "https://github.com/machinaai/pro-layout/issues"
+    "url": "https://github.com/machinaai/pro-layout/nbe-layout/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/machinaai/pro-layout.git"
+    "url": "git+https://github.com/machinaai/pro-layout/nbe-layout.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
