@@ -8,7 +8,6 @@ import warning from 'warning';
 import useMergeValue from 'use-merge-value';
 import { stringify } from 'use-json-comparison';
 import useAntdMediaQuery from 'use-media-antd-query';
-
 import Omit from 'omit.js';
 import Header, { HeaderViewProps } from './Header';
 import {
@@ -279,7 +278,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
   useDeepCompareEffect(() => {
     if (!menuDataRender) {
       const infoData = getMenuData(routes, menu, formatMessage, menuDataRender);
-      
+
       const animationFrameId = requestAnimationFrame(() => {
         setMenuInfoData(infoData);
       });
@@ -332,7 +331,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
     menuData,
     onCollapse,
     isMobile,
-    theme: (navTheme || 'dark').toLocaleLowerCase().includes('dark')
+    theme: (navTheme || 'light').toLocaleLowerCase().includes('light')
       ? 'dark'
       : 'light',
     collapsed,
@@ -469,7 +468,8 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
 };
 
 BasicLayout.defaultProps = {
-  logo: 'https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg',
+  logo:
+    'https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg',
   ...defaultSettings,
   prefixCls: 'ant-pro',
   siderWidth: 220,
