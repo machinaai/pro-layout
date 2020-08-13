@@ -3,8 +3,8 @@ title: Introducción
 order: 10
 side: false
 hero:
-  title: ProLayout
-  desc: 🏆 Use Pro-Layuout like a Pro!
+  title: NbeLayout
+  desc: 🏆 Use Nbe-Layuout like a Pro!
   actions:
     - text: Inicio Rápido →
       link: /getting-started

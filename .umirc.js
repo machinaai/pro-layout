@@ -1,5 +1,5 @@
 export default {
-  title: 'ProLayout',
+  title: 'NbeLayout',
   logo: 'https://raw.githubusercontent.com/machinaai/logos/master/nova.png',
   mode: 'site',
   extraBabelPlugins: [

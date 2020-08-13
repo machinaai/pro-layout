@@ -7,11 +7,11 @@ nav:
   order: 0
 ---
 
-ProLayout es una herramienta para ayudar en el diseño general del marco de página, es indispensable en cada proyecto, y es muy similar multiples proyectos. Así que abstrajimos ProLayout para reducir la duplicación de código
+NbeLayout es una herramienta para ayudar en el diseño general del marco de página, es indispensable en cada proyecto, y es muy similar multiples proyectos. Así que abstrajimos ProLayout para reducir la duplicación de código
 
 ## Diseño
 
-La capacidad básica del diseño es el Layout: en ProLayout, extrajimos tres métodos de diseñoÑ `side`,` top` y `mix`. Podemos usar propiedades para cambiarlos, y se puede ver un ejemplo simplen [aquí](http://localhost:8000/_demos/base).
+La capacidad básica del diseño es el Layout: en NbeLayout, extrajimos tres métodos de diseñoÑ `side`,` top` y `mix`. Podemos usar propiedades para cambiarlos, y se puede ver un ejemplo simplen [aquí](http://localhost:8000/_demos/base).
 
 ### modo side
 
@@ -27,7 +27,7 @@ La capacidad básica del diseño es el Layout: en ProLayout, extrajimos tres mé
 
 ## Custom layout
 
-ProLayout proporciona algunas API para eliminar áreas que los usuarios no necesitan. Algunas configuraciones también se proporcionan en SettingDrawer para la configuración.
+NbeLayout proporciona algunas API para eliminar áreas que los usuarios no necesitan. Algunas configuraciones también se proporcionan en SettingDrawer para la configuración.
 
 ![setting-drawer-render](https://raw.githubusercontent.com/machinaai/logos/master/demo/60298863-F5A5-4af2-923A-13EF912DB0E1.png)
 
@@ -57,7 +57,7 @@ El Menú dividido es la capacidad exclusiva del modo "mix". Puede colocar el Men
 
 ## Menú personalizado
 
-ProLayout generará automáticamente un Menú y lo seleccionará automáticamente en función del nombre de la ruta. Coopera con PageContainer para calcular automáticamente los breadcrumbs y el título de la página. Si lo usa con la configuración umi, solo necesita pasar los parámetros de Página a ProLayout, y la configuración del Menú puede generarse automáticamente de acuerdo con la configuración de los enrutadores en la configuración.
+NbeLayout generará automáticamente un Menú y lo seleccionará automáticamente en función del nombre de la ruta. Coopera con PageContainer para calcular automáticamente los breadcrumbs y el título de la página. Si lo usa con la configuración umi, solo necesita pasar los parámetros de Página a ProLayout, y la configuración del Menú puede generarse automáticamente de acuerdo con la configuración de los enrutadores en la configuración.
 
 Para proporcionar más funciones, hemos ampliado la configuración de los enrutadores y agregado varias configuraciones para facilitar la personalización. La estructura de datos se define de la siguiente manera:
 

@@ -9,7 +9,7 @@ nav:
 
 # menu Varias operaciones
 
-ProLayout proporciona un Menú potente, pero esto inevitablemente encapsulará muchos comportamientos, causando insatisfacción con los usuarios que necesitan una lógica especial. Por lo tanto, proporcionamos muchas API, con la esperanza de satisfacer a la mayoría de las necesidades.
+NbeLayout proporciona un Menú potente, pero esto inevitablemente encapsulará muchos comportamientos, causando insatisfacción con los usuarios que necesitan una lógica especial. Por lo tanto, proporcionamos muchas API, con la esperanza de satisfacer a la mayoría de las necesidades.
 
 ## Cargar menu desde el servidor 
 

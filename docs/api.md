@@ -1,5 +1,5 @@
 ---
-title: nbe-layout API
+title: Nbe-layout API
 order: 9
 side: false
 nav:
