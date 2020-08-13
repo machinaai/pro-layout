@@ -1,5 +1,5 @@
 ---
-title: Pro-Layout API
+title: nbe-layout API
 order: 9
 side: false
 nav:
@@ -9,7 +9,7 @@ nav:
 
 # Layout API
 
-Pro-Layout proporciona una API robusta para personalizar varios comportamientos. Como se muestra en la demostración a continuación.
+nbe-layout proporciona una API robusta para personalizar varios comportamientos. Como se muestra en la demostración a continuación.
 
 ## Demo
 
@@ -104,7 +104,7 @@ Una página de carga simple
 RouteContext puede proporcionar datos integrados de diseño. Por ejemplo, isMobile y collapsed, puede consumir estos datos para personalizar algunos comportamientos.
 
 ```tsx | pure
-import { RouteContext, RouteContextType } from '@machinaai/pro-layout';
+import { RouteContext, RouteContextType } from '@machinaai/nbe-layout';
 
 const Page = () => (
   <RouteContext.Consumer>
@@ -128,7 +128,7 @@ GridContent encapsula componentes [Fijo] (https://designer.reboot.vc/dashboardan
 Genere menuData y breadcrumb según la información del enrutador.
 
 ```js
-import { getMenuData } from '@machinaai/pro-layout';
+import { getMenuData } from '@machinaai/nbe-layout';
 
 const { breadcrumb, menuData } = getMenuData(
   routes,
@@ -150,7 +150,7 @@ const { breadcrumb, menuData } = getMenuData(
 getPageTitle encapsula la lógica basada en el título generado en menuData.
 
 ```js
-import { getPageTitle } from '@machinaai/pro-layout';
+import { getPageTitle } from '@machinaai/nbe-layout';
 
 const title = getPageTitle({
   pathname,
@@ -176,7 +176,7 @@ const title = getPageTitle({
 ### Settings
 
 ```ts | pure
-// Se puede importar con: import { Settings } from '@machinaai/pro-layout/defaultSettings'
+// Se puede importar con: import { Settings } from '@machinaai/nbe-layout/defaultSettings'
 // Para obtener este tipo
 export interface Settings {
   /**
@@ -217,7 +217,7 @@ export interface Settings {
 ### MenuDataItem
 
 ```ts | pure
-// Se puede importar con: import { MenuDataItem } from '@machinaai/pro-layout'
+// Se puede importar con: import { MenuDataItem } from '@machinaai/nbe-layout'
 // para obtener este tipo
 
 export interface MenuDataItem {
@@ -236,7 +236,7 @@ export interface MenuDataItem {
 ### Route
 
 ```ts | pure
-// Se puede importar con: import { RouterTypes } from '@machinaai/pro-layout/typings'
+// Se puede importar con: import { RouterTypes } from '@machinaai/nbe-layout/typings'
 // para obtener este tipo
 export interface Route {
   path: string;

@@ -62,7 +62,7 @@ ProLayout generará automáticamente un Menú y lo seleccionará automáticament
 Para proporcionar más funciones, hemos ampliado la configuración de los enrutadores y agregado varias configuraciones para facilitar la personalización. La estructura de datos se define de la siguiente manera:
 
 ```ts | pure
-// Se puede importar con: import { MenuDataItem } from '@machinaai/pro-layout'
+// Se puede importar con: import { MenuDataItem } from '@machinaai/nbe-layout'
 // para obtener este tipo
 export interface MenuDataItem {
   children?: MenuDataItem[];
@@ -171,7 +171,7 @@ Cómo utilizar：
 RouteContext proporciona una forma de realizar algunas operaciones basadas en datos de diseño: PageContainer y FooterToolbar dependen de los datos de RouteContext para implementar funciones.
 
 ```tsx | pure
-import { RouteContext, RouteContextType } from '@machinaai/pro-layout';
+import { RouteContext, RouteContextType } from '@machinaai/nbe-layout';
 
 const Page = () => (
   <RouteContext.Consumer>

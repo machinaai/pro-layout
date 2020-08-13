@@ -34,13 +34,13 @@ footer: Copyright © 2020-present
 ## Cómo utilizar
 
 ```bash
-npm i @machinaai/pro-layout --save
+npm i @machinaai/nbe-layout --save
 // or
-yarn add @machinaai/pro-layout
+yarn add @machinaai/nbe-layout
 ```
 
 ```jsx | pure
-import BasicLayout from '@machinaai/pro-layout';
+import BasicLayout from '@machinaai/nbe-layout';
 
 render(<BasicLayout />, document.getElementById('root'));
 ```

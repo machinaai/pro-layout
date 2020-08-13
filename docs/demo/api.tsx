@@ -4,7 +4,7 @@ import { Switch, Avatar } from 'antd';
 import ProLayout, {
   PageContainer,
   DefaultFooter,
-} from '@machinaai/pro-layout';
+} from '@machinaai/nbe-layout';
 import defaultProps from './defaultProps';
 
 export default () => {

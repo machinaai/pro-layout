@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line import/no-unresolved
-import ProLayout, { PageContainer } from '@machinaai/pro-layout';
+import ProLayout, { PageContainer } from '@machinaai/nbe-layout';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItem from '@material-ui/core/ListItem';

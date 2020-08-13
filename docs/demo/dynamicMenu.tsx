@@ -3,7 +3,7 @@ import ProLayout, {
   PageContainer,
   MenuDataItem,
   // eslint-disable-next-line import/no-unresolved
-} from '@machinaai/pro-layout';
+} from '@machinaai/nbe-layout';
 import { Button, Spin } from 'antd';
 import customMenuDate from './customMenu';
 

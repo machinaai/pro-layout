@@ -3,7 +3,7 @@ import ProLayout, {
   DefaultFooter,
   PageContainer,
   // eslint-disable-next-line import/no-unresolved
-} from '@machinaai/pro-layout';
+} from '@machinaai/nbe-layout';
 import defaultProps from './defaultProps';
 
 export default () => (

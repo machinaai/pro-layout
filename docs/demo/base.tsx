@@ -7,7 +7,7 @@ import ProLayout, {
   SettingDrawer,
   ProSettings,
   // eslint-disable-next-line import/no-unresolved
-} from '@machinaai/pro-layout';
+} from '@machinaai/nbe-layout';
 import defaultProps from './defaultProps';
 
 const content = (
@@ -31,7 +31,7 @@ export default () => {
   const [pathname, setPathname] = useState('/welcome');
   return (
     <div
-      id="test-pro-layout"
+      id="test-nbe-layout"
       style={{
         transform: 'rotate(0)',
         overflowX: 'hidden',
@@ -101,7 +101,7 @@ export default () => {
         </PageContainer>
       </ProLayout>
       <SettingDrawer
-        getContainer={() => document.getElementById('test-pro-layout')}
+        getContainer={() => document.getElementById('test-nbe-layout')}
         settings={settings}
         onSettingChange={(changeSetting) => setSetting(changeSetting)}
       />

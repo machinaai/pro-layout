@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line import/no-unresolved
-import ProLayout, { PageContainer, MenuDataItem } from '@machinaai/pro-layout';
+import ProLayout, { PageContainer, MenuDataItem } from '@machinaai/nbe-layout';
 import { SmileOutlined, HeartOutlined } from '@ant-design/icons';
 
 const IconMap = {
