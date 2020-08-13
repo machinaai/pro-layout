@@ -9,13 +9,13 @@
     "menu",
     "pro"
   ],
-  "homepage": "https://github.com/machinaai/pro-layout/nbe-layout#readme",
+  "homepage": "https://github.com/machinaai/nbe-layout#readme",
   "bugs": {
-    "url": "https://github.com/machinaai/pro-layout/nbe-layout/issues"
+    "url": "https://github.com/machinaai/nbe-layout/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/machinaai/pro-layout/nbe-layout.git"
+    "url": "git+https://github.com/machinaai/nbe-layout.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -18,7 +18,7 @@
     "declaration": true,
     "skipLibCheck": true,
     "paths": {
-      "@machinaai/pro-layout": ["./src"]
+      "@machinaai/nbe-layout": ["./src"]
     }
   },
   "include": ["**/src/", "**/docs/", "**/tests/"],

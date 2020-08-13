@@ -195,7 +195,7 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     {
       key: 'light',
       url:
-        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/jpRkZQMyYRryryPNtyIC.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/nbe-layout/jpRkZQMyYRryryPNtyIC.svg',
       title: formatMessage({ id: 'app.setting.pagestyle.light' }),
     },
   ];
@@ -227,7 +227,7 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     themeList.push({
       key: 'dark',
       url:
-        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/LCkqqYNmvBEbokSDscrm.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/nbe-layout/LCkqqYNmvBEbokSDscrm.svg',
       title: formatMessage({
         id: 'app.setting.pagestyle.dark',
         defaultMessage: '',
@@ -239,7 +239,7 @@ const getThemeList = (settings: Partial<ProSettings>) => {
     themeList.push({
       key: 'realDark',
       url:
-        'https://raw.githubusercontent.com/machinaai/logos/master/pro-layout/LCkqqYNmvBEbokSDscrm1.svg',
+        'https://raw.githubusercontent.com/machinaai/logos/master/nbe-layout/LCkqqYNmvBEbokSDscrm1.svg',
       title: formatMessage({
         id: 'app.setting.pagestyle.darkTheme',
         defaultMessage: '',

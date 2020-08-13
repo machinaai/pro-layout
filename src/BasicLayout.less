@@ -1,7 +1,7 @@
 @import '~antd/es/style/themes/default.less';
 
 @basicLayout-prefix-cls: ~'@{ant-prefix}-pro-basicLayout';
-@pro-layout-header-height: 48px;
+@nbe-layout-header-height: 48px;
 
 .@{basicLayout-prefix-cls} {
   // BFC
@@ -56,18 +56,18 @@
   .@{basicLayout-prefix-cls}-has-header {
     // tech-page-container
     .tech-page-container {
-      height: calc(100vh - @pro-layout-header-height);
+      height: calc(100vh - @nbe-layout-header-height);
     }
     .@{basicLayout-prefix-cls}-is-children.@{basicLayout-prefix-cls}-has-header {
       .tech-page-container {
         height: calc(
-          100vh - @pro-layout-header-height - @pro-layout-header-height;
+          100vh - @nbe-layout-header-height - @nbe-layout-header-height;
         );
       }
       .@{basicLayout-prefix-cls}-is-children {
-        min-height: calc(100vh - @pro-layout-header-height);
+        min-height: calc(100vh - @nbe-layout-header-height);
         &.@{basicLayout-prefix-cls}-fix-siderbar {
-          height: calc(100vh - @pro-layout-header-height);
+          height: calc(100vh - @nbe-layout-header-height);
         }
       }
     }

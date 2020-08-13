@@ -16,7 +16,7 @@ export default {
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/machinaai/pro-layout',
+      path: 'https://github.com/machinaai/nbe-layout',
     },
   ],
   dynamicImport: {

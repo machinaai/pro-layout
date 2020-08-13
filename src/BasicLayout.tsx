@@ -163,7 +163,7 @@ const defaultPageTitleRender = (
     }
     warning(
       typeof title === 'string',
-      'pro-layout: renderPageTitle return value should be a string',
+      'nbe-layout: renderPageTitle return value should be a string',
     );
   }
   return pageTitleInfo;
