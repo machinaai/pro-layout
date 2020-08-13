@@ -1,7 +1,6 @@
 English | [changelog](./changelog.en-US.md)
 
-![](https://codecov.io/gh/ant-design/pro-layout/branch/master/graph/badge.svg)
-[![](https://img.shields.io/npm/dw/@machinaai/pro-layout.svg)](https://www.npmjs.com/package/@machinaai/pro-layout) [![npm package](https://img.shields.io/npm/v/@machinaai/pro-layout.svg?style=flat-square?style=flat-square)](https://www.npmjs.com/package/@machinaai/pro-layout) [![](https://img.shields.io/github/issues/ant-design/pro-layout.svg)](https://github.com/machinaai/pro-layout/issues) 
+![](https://codecov.io/gh/ant-design/nbe-layout/branch/master/graph/badge.svg) [![](https://img.shields.io/npm/dw/@machinaai/nbe-layout.svg)](https://www.npmjs.com/package/@machinaai/nbe-layout) [![npm package](https://img.shields.io/npm/v/@machinaai/nbe-layout.svg?style=flat-square?style=flat-square)](https://www.npmjs.com/package/@machinaai/nbe-layout) [![](https://img.shields.io/github/issues/ant-design/nbe-layout.svg)](https://github.com/machinaai/nbe-layout/issues)
 
 <h1 align="center">React Designer Layout</h1>
 
@@ -16,27 +15,26 @@ An out-of-box UI solution for enterprise applications as a React boilerplate. Th
 ## Usage
 
 ```bash
-npm i @machinaai/pro-layout --save
+npm i @machinaai/nbe-layout --save
 // or
-yarn add @machinaai/pro-layout
+yarn add @machinaai/nbe-layout
 ```
 
 ```jsx | pure
-import ProLayout from '@machinaai/pro-layout';
+import ProLayout from '@machinaai/nbe-layout';
 
 render(<ProLayout />, document.getElementById('root'));
 ```
 
 ## Demo
 
-[site](https://ant-design.github.io/pro-layout/)
+[site](https://ant-design.github.io/nbe-layout/)
 
 ## API
 
 ### ProLayout
 
 > All methods with the suffix `Render` can prevent rendering by passing in `false`.
-
 
 | Property | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -85,7 +83,7 @@ Layout support for most of [Menu](https://ant.design/components/menu-cn/#Menu) b
 ### SettingDrawer
 
 ```js | pure
-import { SettingDrawer } from '@machinaai/pro-layout';
+import { SettingDrawer } from '@machinaai/nbe-layout';
 ```
 
 > SettingDrawer provides a graphical interface to set the layout configuration. Not recommended for use in a product environment.
@@ -146,7 +144,7 @@ GridContent encapsulates [equal width](https://designer.reboot.vc//dashboard/ana
 Generate menuData and breadcrumb based on the router information.
 
 ```js | pure
-import { getMenuData } from '@machinaai/pro-layout';
+import { getMenuData } from '@machinaai/nbe-layout';
 
 const { breadcrumb, menuData } = getMenuData(
   routes,
@@ -166,7 +164,7 @@ const { breadcrumb, menuData } = getMenuData(
 ### getPageTitle
 
 ```js | pure
-import { getPageTitle } from '@machinaai/pro-layout';
+import { getPageTitle } from '@machinaai/nbe-layout';
 
 const title = getPageTitle({
   pathname,
@@ -194,7 +192,7 @@ getPageTitle encapsulates the logic based on the title generated on menuData.
 ### Settings
 
 ```ts | pure
-// can be done via import { Settings } from '@machinaai/pro-layout/defaultSettings' to get this type
+// can be done via import { Settings } from '@machinaai/nbe-layout/defaultSettings' to get this type
 
 export interface Settings {
   /**
@@ -235,7 +233,7 @@ export interface Settings {
 ### MenuDataItem
 
 ```ts | pure
-// can be imported { MenuDataItem } from '@machinaai/pro-layout/typings' to get this type
+// can be imported { MenuDataItem } from '@machinaai/nbe-layout/typings' to get this type
 
 export interface MenuDataItem {
   authority?: string[] | string;
@@ -253,7 +251,7 @@ export interface MenuDataItem {
 ### Route
 
 ```ts | pure
-// can be imported { RouterTypes } from '@machinaai/pro-layout/typings'  to get this type
+// can be imported { RouterTypes } from '@machinaai/nbe-layout/typings'  to get this type
 export interface Route {
   path: string;
   routes: Array<{
