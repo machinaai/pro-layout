@@ -56,7 +56,7 @@ const defaultSettings: ProSettings = {
   menu: {
     locale: true,
   },
-  headerHeight: 48,
+  headerHeight: 64,
   title: 'React Designer',
   iconfontUrl: '',
   primaryColor: '#1890ff',

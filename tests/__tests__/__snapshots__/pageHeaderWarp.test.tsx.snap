@@ -9,7 +9,7 @@ exports[`BasicLayout base use 1`] = `
     style="min-height:100%"
   >
     <aside
-      class="ant-pro-sider ant-pro-sider-layout-side ant-layout-sider ant-layout-sider-dark"
+      class="ant-pro-sider ant-pro-sider-layout-side ant-pro-sider-light ant-layout-sider ant-layout-sider-light"
       style="overflow:hidden;flex:0 0 220px;max-width:220px;min-width:220px;width:220px"
     >
       <div
@@ -22,7 +22,7 @@ exports[`BasicLayout base use 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg"
+              src="https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -33,7 +33,7 @@ exports[`BasicLayout base use 1`] = `
           style="flex:1;overflow-y:auto;overflow-x:hidden"
         >
           <ul
-            class="ant-menu ant-pro-sider-menu ant-menu-dark ant-menu-root ant-menu-inline"
+            class="ant-menu ant-pro-sider-menu ant-menu-light ant-menu-root ant-menu-inline"
             role="menu"
             style="width:100%"
           >
@@ -62,7 +62,7 @@ exports[`BasicLayout base use 1`] = `
           class="ant-pro-sider-links"
         >
           <ul
-            class="ant-menu ant-pro-sider-link-menu ant-menu-dark ant-menu-root ant-menu-inline"
+            class="ant-menu ant-pro-sider-link-menu ant-menu-light ant-menu-root ant-menu-inline"
             role="menu"
           >
             <li
@@ -101,7 +101,7 @@ exports[`BasicLayout base use 1`] = `
     >
       <header
         class="ant-layout-header"
-        style="padding:0;height:48px;line-height:48px;width:100%;z-index:9"
+        style="padding:0;height:64px;line-height:64px;width:100%;z-index:9"
       >
         <div
           class="ant-pro-global-header ant-pro-global-header-layout-side"
@@ -162,7 +162,7 @@ exports[`BasicLayout content is text 1`] = `
     style="min-height:100%"
   >
     <aside
-      class="ant-pro-sider ant-pro-sider-layout-side ant-layout-sider ant-layout-sider-dark"
+      class="ant-pro-sider ant-pro-sider-layout-side ant-pro-sider-light ant-layout-sider ant-layout-sider-light"
       style="overflow:hidden;flex:0 0 220px;max-width:220px;min-width:220px;width:220px"
     >
       <div
@@ -175,7 +175,7 @@ exports[`BasicLayout content is text 1`] = `
           <a>
             <img
               alt="logo"
-              src="https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg"
+              src="https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg"
             />
             <h1>
               React Designer
@@ -186,7 +186,7 @@ exports[`BasicLayout content is text 1`] = `
           style="flex:1;overflow-y:auto;overflow-x:hidden"
         >
           <ul
-            class="ant-menu ant-pro-sider-menu ant-menu-dark ant-menu-root ant-menu-inline"
+            class="ant-menu ant-pro-sider-menu ant-menu-light ant-menu-root ant-menu-inline"
             role="menu"
             style="width:100%"
           >
@@ -215,7 +215,7 @@ exports[`BasicLayout content is text 1`] = `
           class="ant-pro-sider-links"
         >
           <ul
-            class="ant-menu ant-pro-sider-link-menu ant-menu-dark ant-menu-root ant-menu-inline"
+            class="ant-menu ant-pro-sider-link-menu ant-menu-light ant-menu-root ant-menu-inline"
             role="menu"
           >
             <li
@@ -254,7 +254,7 @@ exports[`BasicLayout content is text 1`] = `
     >
       <header
         class="ant-layout-header"
-        style="padding:0;height:48px;line-height:48px;width:100%;z-index:9"
+        style="padding:0;height:64px;line-height:64px;width:100%;z-index:9"
       >
         <div
           class="ant-pro-global-header ant-pro-global-header-layout-side"

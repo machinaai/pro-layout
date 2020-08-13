@@ -26,7 +26,7 @@ export const defaultRenderLogoAndTitle = (
   renderKey: string = 'menuHeaderRender',
 ): React.ReactNode => {
   const {
-    logo = 'https://raw.githubusercontent.com/machinaai/logos/master/logo2.svg',
+    logo = 'https://raw.githubusercontent.com/machinaai/pro-layout/nbe-layout/src/assets/logo/nbe-logo.svg',
     title,
     layout,
   } = props;
@@ -100,7 +100,7 @@ const SiderMenu: React.FC<SiderMenuProps> = (props) => {
     menuContentRender,
     prefixCls = 'ant-pro',
     onOpenChange,
-    headerHeight
+    headerHeight,
   } = props;
   const baseClassName = `${prefixCls}-sider`;
   const { flatMenuKeys } = MenuCounter.useContainer();

@@ -107,6 +107,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: #f4f6fe;
 
     ::-webkit-scrollbar {
       width: 6px;
@@ -161,9 +162,15 @@
       padding: 0 16px !important;
     }
 
+    .@{ant-prefix}-menu-item-selected {
+      color: #000;
+      border-right: 2px solid #0091ff;
+    }
+
     // hide menu item text in collapsed
     .antd-menu-item-title {
       display: none;
+      color: #000;
     }
 
     .@{ant-prefix}-menu-submenu {
@@ -222,6 +229,7 @@
       }
     }
     .@{ant-prefix}-menu-light {
+      background-color: rgba(0, 0, 0, 0.1);
       border-right-color: transparent;
     }
 
