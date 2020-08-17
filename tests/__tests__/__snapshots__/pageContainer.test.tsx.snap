@@ -77,7 +77,7 @@ exports[`PageContainer 🐲 FooterToolbar should know width 1`] = `
         style="padding: 0px; height: 64px; line-height: 64px; width: 100%; z-index: 9;"
       >
         <div
-          class="ant-pro-top-nav-header"
+          class="ant-pro-top-nav-header light"
         >
           <div
             class="ant-pro-top-nav-header-main "
@@ -105,7 +105,7 @@ exports[`PageContainer 🐲 FooterToolbar should know width 1`] = `
               style="flex: 1;"
             >
               <ul
-                class="ant-menu top-nav-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+                class="ant-menu top-nav-menu ant-menu-light ant-menu-root ant-menu-horizontal"
                 role="menu"
               />
             </div>
@@ -272,7 +272,7 @@ exports[`PageContainer 🐲 footer should know width 1`] = `
         style="padding: 0px; height: 64px; line-height: 64px; width: 100%; z-index: 9;"
       >
         <div
-          class="ant-pro-top-nav-header"
+          class="ant-pro-top-nav-header light"
         >
           <div
             class="ant-pro-top-nav-header-main "
@@ -300,7 +300,7 @@ exports[`PageContainer 🐲 footer should know width 1`] = `
               style="flex: 1;"
             >
               <ul
-                class="ant-menu top-nav-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+                class="ant-menu top-nav-menu ant-menu-light ant-menu-root ant-menu-horizontal"
                 role="menu"
               />
             </div>
