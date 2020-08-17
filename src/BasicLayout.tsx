@@ -332,8 +332,8 @@ const BasicLayout: React.FC<BasicLayoutProps> = (props) => {
     onCollapse,
     isMobile,
     theme: (navTheme || 'light').toLocaleLowerCase().includes('light')
-      ? 'dark'
-      : 'light',
+      ? 'light'
+      : 'dark',
     collapsed,
   });
 
